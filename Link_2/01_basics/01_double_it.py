@@ -1,0 +1,12 @@
+def double_until_100():
+    curr_value = float(input("Enter a number: "))
+    
+    while curr_value < 100:
+        curr_value = curr_value * 2
+        print(int(curr_value), end=' ')
+
+
+
+
+if __name__ == "__main__":
+    double_until_100()
