@@ -1,23 +1,26 @@
-# Project 1: Mad libs Python Project
+print("\n✨ Welcome to The Mysterious Adventure Mad Libs Game ✨\n")
+name=input("Enter your name here:")
+object=input("Enter any object here:")
+place=input("Enter your favourite place here:")
+color=input("Enter your favourite color here:")
+animal=input("Enter your favourite animal here:")
+funny_phrase=input("Enter a funny phrase here:")
+huge_object=input("Enter a huge object here:")
+action_verb=input("Enter an action verb here:")
+adjective=input("Enter an adjective here:")
+creature_of_person=input("Enter a creature of person here:")
+random_dialogue=input("Enter a random dialouge here:")
+past_tense_verb=input("Enter a past tense action here:")
+print("\n--- The Great Adventure of " + name + " ---\n")
 
-def  mad_libs():
-    print("Welcome to the Mad Libs Game!")
-    print("Fill in the blanks to create a funny story.")
+print(f"One day, {name} decided to explore {place}. With a {object} in hand, they set off on their journey.")
+print(f"Suddenly, a {color} {animal} appeared and blocked the path.")
 
-    # Get user inputs
-    noun1 = input("Enter a noun: ")
-    verb1 = input("Enter a verb: ")
-    adjective1 = input("Enter an adjective: ")
-    adverb1 = input("Enter an adverb: ")
+print(f'"{funny_phrase}," it said.')
 
-    # Create the story
-    story = f"Once upon a time, there was a {adjective1} {noun1} that loved to {verb1} {adverb1}."
-    
-    # Print the story
-    print("\nHere's your Mad Libs story:")
-    print(story)
+print(f"Confused but determined, {name} climbed a {object} and discovered a {huge_object} ahead.")
+print(f"Gathering courage, they decided to {action_verb}.")
 
+print(f"Out of nowhere, a {adjective} {creature_of_person} appeared and shouted, '{random_dialogue}!'")
 
-
-if __name__ == "__main__":    
-    mad_libs()
+print(f"In the end, {name} {past_tense_verb} and the adventure ended {adjective}.")
